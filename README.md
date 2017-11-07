@@ -1,4 +1,4 @@
-# Appium Cucumber Ruby
+# Appium Android Cucumber Ruby framework
 
 Here you will find framework for Native Android app automation, using latest Appium version. 
 
@@ -18,6 +18,7 @@ To run tests:
 4. in terminal cd to AppiumCucumberRuby
 5. execute test by typing: cucumber
 
+# Appium tutorial
 More details how to build framework from scratch, you can learn here:
 
 https://www.udemy.com/test-automation-with-appium-cucumber-and-ruby/?couponCode=EASYCUCU10

@@ -8,17 +8,11 @@ def caps
       app: (File.join(File.dirname(__FILE__), "PreciseUnitConversion.apk")),
       appPackage: "com.ba.universalconverter",
       appActivity: "MainConverterActivity",
-      newCommandTimeout: "3600",
-
-      appium_lib: {
-          wait: 20,
-          debug: false
-        }
-      }
-  }
+      newCommandTimeout: "3600"
+  }}
 end
 
-Appium::Driver.new(caps)
+Appium::Driver.new(caps, true)
 Appium.promote_appium_methods Object
 
 
